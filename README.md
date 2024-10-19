@@ -93,3 +93,20 @@ These commands will run the respective scripts inside Docker containers. A data 
 Make sure to adjust the `num_classes` parameter in the `DogBreedClassifier` initialization if your dataset has a different number of dog breeds.
 
 If you encounter any issues or need further assistance, please open an issue in the GitHub repository.
+
+Results
+
+<table>
+  <tr>
+    <td><img src="predictions/sample_1_prediction.png" alt="Sample 1" width="100%"/><div style="text-align: center;"><br>Actual: Poodle <br> Predicted: Poodle <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_2_prediction.png" alt="Sample 2" width="100%"/><div style="text-align: center;"><br>Actual: Yorkshire_Terrier <br> Predicted: Yorkshire_Terrier <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_3_prediction.png" alt="Sample 3" width="100%"/><div style="text-align: center;"><br>Actual: German_Shepherd <br> Predicted: German_Shepherd <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_4_prediction.png" alt="Sample 4" width="100%"/><div style="text-align: center;"><br>Actual: Labrador_Retriever <br> Predicted: Labrador_Retriever <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_5_prediction.png" alt="Sample 5" width="100%"/><div style="text-align: center;"><br>Actual: Golden_Retriever <br> Predicted: Golden_Retriever <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_6_prediction.png" alt="Sample 6" width="100%"/><div style="text-align: center;"><br>Actual: Yorkshire_Terrier <br> Predicted: Yorkshire_Terrier <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_7_prediction.png" alt="Sample 7" width="100%"/><div style="text-align: center;"><br>Actual: Labrador_Retriever <br> Predicted: Labrador_Retriever <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_8_prediction.png" alt="Sample 8" width="100%"/><div style="text-align: center;"><br>Actual: Dachshund <br> Predicted: Dachshund <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_9_prediction.png" alt="Sample 9" width="100%"/><div style="text-align: center;"><br>Actual: German_Shepherd <br> Predicted: German_Shepherd <br> (Confidence: 1)</div></td>
+    <td><img src="predictions/sample_10_prediction.png" alt="Sample 10" width="100%"/><div style="text-align: center;"><br>Actual: Labrador_Retriever <br> Predicted: Labrador_Retriever <br> (Confidence: 1)</div></td>
+  </tr>
+</table>
