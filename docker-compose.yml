@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  train:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./checkpoints:/app/checkpoints
+    command: python model-train/train.py
+
+  evaluate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./checkpoints:/app/checkpoints
+    command: python model-eval/eval.py
+
+  infer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./checkpoints:/app/checkpoints
+      - ./predictions:/app/predictions
+    command: python model-infer/infer.py
+
+volumes:
+  data:
+  checkpoints:
+  predictions:

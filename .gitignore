@@ -1,0 +1,6 @@
+data
+*.zip
+venv
+kaggle.json
+lightning_logs
+tb_logs

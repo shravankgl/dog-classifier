@@ -1,0 +1,13 @@
+{
+    "name": "Dog Breed Classification Project",
+    "dockerFile": "../Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+    ],
+    "forwardPorts": [],
+    "postCreateCommand": "pip install -e ."
+}
